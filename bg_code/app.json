@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/storePatrol/storePatrol",
+    "pages/addStore/addStore",
+    "pages/storeDetail/storeDetail",
+    "pages/writeOff/writeOff",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "赏米后台版",
+    "navigationBarTextStyle":"black"
+  }
+}

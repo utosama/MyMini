@@ -1,0 +1,71 @@
+/* pages/addStore/addStore.wxss */
+.row{
+  display: flex;
+  flex-direction: row;
+  /* margin-top:80rpx; */
+  /* text-align: center; */
+  /* margin-left: 54rpx; */
+  justify-content: center;
+  margin-top:20rpx;
+}
+.leave-hint{
+  color: #77767e;
+  font-size: 35rpx;
+  /* margin-left: 54rpx; */
+   /* width: 180rpx;  */
+}
+.btn{
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color:#EC693F;
+  color:white;
+}
+.unfold-img{
+  height: 40rpx;
+  width: 40rpx;
+}
+.unfold{
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.body-view{
+  width:500rpx;
+  color:#77767e;
+  font-size:35rpx;
+}
+.hint-title{
+  font-size:30rpx;
+  width:200rpx;
+  height:50rpx;
+  line-height:50rpx;
+}
+.cell-container{
+  width: 600rpx;
+  margin: auto;
+  /* margin-top:90rpx; */
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100rpx;
+  
+}
+.image-contain{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-image{
+  height: 80rpx;
+  width: 80rpx;
+}
+.hint{
+  font-size: 28rpx;
+  color:#cdcdcd;
+}
+.delete-img{
+    width: 35rpx;
+    height: 35rpx;
+    position: absolute;
+    right: -16rpx;
+    top:-16rpx;
+}

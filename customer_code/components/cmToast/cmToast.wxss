@@ -1,0 +1,63 @@
+/* components/cmToast/cmToast.wxss */
+.body{
+  background-color:rgba(15, 15, 26, 0.7); 
+  height: 100%;
+  width: 100%;
+  position: fixed;  
+  z-index: 999; 
+  top: 0;
+}
+.containor{
+  width:540rpx;
+  height:270rpx;
+  background:rgba(255,255,255,1);
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin: 297rpx auto auto auto;
+  display: flex;
+  flex-direction: column;
+}
+.confirm{
+  width:540rpx;
+   height:90rpx; 
+
+  font-size:36rpx;
+  border-radius: 10px;
+  font-family:PingFangSC-Regular;
+  color:rgba(255,74,12,1);
+  line-height:90rpx;
+  text-align: center;
+  background-color: white;
+  
+}
+.hint-containor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid  #DBDBDB;
+  height: 170rpx;
+}
+.hint-label{
+  width:400rpx;
+  font-size: 28rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height:auto;
+  color: #999999;
+  font-family:PingFangSC-Regular;
+}
+.icon-view{
+  width:44rpx;
+  height:90rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-image{
+  width:44rpx;
+  height:50rpx;
+  margin-top: 26rpx;
+}

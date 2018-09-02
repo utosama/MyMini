@@ -1,0 +1,9 @@
+<view class="index-hint">
+提示：需要提交邀请码(手机号)方后可正常使用
+</view>
+<view class="bind-container">
+    <view class="input-view">
+        <input bindinput="inputPhone" placeholder="请输入邀请码" class="phone-input" />
+        <button bindtap="commitPhone" class="btn-view" >提交</button>
+    </view>
+</view>

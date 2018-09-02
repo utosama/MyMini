@@ -1,0 +1,14 @@
+<!--pages/haveDone/haveDone.wxml-->
+<view class='content-title'>
+  <view class='title'>
+  今天名额已满
+  </view>
+  <view class='title'>请明天再来</view>
+</view>
+<!-- <view class='hint-content'>
+  <view class='rule'>规则:</view>
+  <view class='rule'>1.可免费领取1件商品</view>
+  <view class='rule'>2.仅限北京、上海、深圳、成都的用户</view>
+  <view class='rule'>3.仅限新用户免费领取</view>
+  <view class='rule'>4.领取后可在28分钟内到达收货地址</view>
+</view> -->

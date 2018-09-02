@@ -1,0 +1,46 @@
+<!--pages/record/record.wxml-->
+<view class="section">
+  <view class="section-title">当前项目：</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{active_names}}">
+    <view style='display:flex'>
+      <view class="picker">{{active_name}}
+      </view>
+      <view class='image' style='height:100rpx;margin-left:30rpx;'>
+        <image src='../../images/options/more_unfold.svg' class='image'></image>
+    </view>
+    </view> 
+  </picker>
+  
+</view>
+<view class='select-group'>
+  <view bindtap='select' data-id='1' class="{{is_today==1?'item active': 'item'}}">今日(未结算)</view>
+  <view bindtap='select' data-id='2' class="{{is_today==2?'item active': 'item'}}">总览(未结算)</view>
+  <view bindtap='select' data-id='3' class="{{is_today==3?'item active': 'item'}}">已结算</view>
+</view>
+<!-- <view class='data-cell' wx:for="{{datas}}" wx:key="key">
+  <view class='msg-row'>{{item.saler_name}}</view>
+  
+  <view class='msg-row'>{{item.time}}</view>
+  <view class='msg-row'>{{item.phone}}</view>
+  <view class='msg-row'>+{{item.distribute}}元</view>
+</view> -->
+<view class='data-cell' wx:for="{{datas}}" wx:key="key">
+  <view style='display:flex'>
+   <!-- <view class='msg-row' style='width: 160rpx;font-size:35rpx'>{{item.active_name}}</view>  -->
+   <view class='msg-row' style='font-size:25rpx'>{{item.time}}</view>
+  </view>
+  <view style='display:flex'>
+    <view class='msg-row'>业务员:{{item.saler_name}}</view>  
+  </view>
+  <view style='display:flex'>
+    <view class='msg-row' >领取优惠号码:{{item.phone}}</view>
+  </view>
+    
+  <view style='display:flex'>
+    <view class='msg-row' style='color:red'>获得奖励:{{item.distribute}}元</view>
+    <view class='msg-row' style='color:red'>发出优惠:{{item.price_sum}}元</view>
+  </view>
+</view>
+<view wx:if="{{datas.length == 0}}" class='null'>
+  暂无记录
+</view>

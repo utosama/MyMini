@@ -1,0 +1,20 @@
+<view class='data-cell' wx:for="{{datas}}" wx:key="key">
+  <view style='display:flex'>
+   <view class='msg-row' style='width: 160rpx;font-size:35rpx'>{{item.active_name}}</view> 
+   <view class='msg-row' style='font-size:25rpx'>{{item.time}}</view>
+  </view>
+  <view style='display:flex'>
+    <view class='msg-row'>业务员:{{item.saler_name}}</view>  
+  </view>
+  <view style='display:flex'>
+    <view class='msg-row' >领取优惠号码:{{item.phone}}</view>
+  </view>
+    
+  <view style='display:flex'>
+    <view class='msg-row' style='color:red'>获得奖励:{{item.distribute}}元</view>
+    <view class='msg-row' style='color:red'>发出优惠:{{item.price_sum}}元</view>
+  </view>
+</view>
+<view wx:if="{{datas.length == 0}}" class='null'>
+  暂无记录
+</view>

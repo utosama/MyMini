@@ -1,0 +1,14 @@
+<!--components/cmToast/cmToast.wxml-->
+<view class='body'>
+  <view class='containor'>
+    <view class='hint-containor'>
+      <view class='icon-view'>
+        <image src='../images/icon/warn.svg' class='icon-image'></image>
+      </view>
+      <view class='hint-label'>
+        {{title}}
+      </view>
+    </view>
+    <view class='confirm' bindtap='confirm'>{{confirmText}}</view>
+  </view>
+</view>

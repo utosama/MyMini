@@ -1,0 +1,4 @@
+<view class="contain">
+  <navigator class='btn' url='../bind_phone/bind_phone' >我是店长</navigator>
+  <navigator class='btn' url='../bind_phone/bind_phone' >我是店员</navigator>
+</view>

@@ -1,0 +1,30 @@
+<view class="search-view">
+      <view style="display:flex;flex-direction:row;width:100%">
+        <view class="search-sub">
+        <view style="margin-left:14rpx;height:58rpx;width:58rpx;padding-top:3rpx;">
+          <image src="../../images/correction/paths.png" mode="aspectFit" class="search-img"></image>
+        </view>
+        <view>
+          <input name='storename' bindinput='inputKeyWord' placeholder="输入店名" type="text"  value="" class="search-input"/> 
+        </view>
+        
+      </view>
+      <navigator style="margin-left:auto;margin-right:auto;" url="../addStore/addStore" hover-class="none">
+          <image src="../../images/scan/jiahao2fill.png" mode="aspectFit" class="scan-image"> </image>
+      </navigator>
+      </view>
+</view>
+
+<view class="select-view" wx:for="{{items}}"  wx:key="arrayId" bindtap='next' bindlongtap='changeMsg' data-index='{{index}}' >
+  <view class='column'>
+    <view class="hint-label">
+      店名:{{item.store_name}}
+    </view>
+    <view class="hint-label" style='font-size:26rpx;'>
+      地址:{{item.store_address}}
+    </view>
+  </view>
+  <view style="height:30rpx;margin:auto;">
+    <image src="../../images/scan/next.png" class="next-img"></image>
+  </view>
+</view>

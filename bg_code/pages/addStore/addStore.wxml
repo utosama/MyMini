@@ -1,0 +1,33 @@
+<view class="row" style="margin-top:50rpx;">
+  <view style="color:#77767e;font-size:35rpx;width:200rpx;height:80rpx;line-height:80rpx;">门店名称:</view>
+  <view style="font-size:35rpx;width:300rpx;height:80rpx;line-height:80rpx;">
+    <input style='height:80rpx;line-height:80rpx;' placeholder='请输入名称' bindinput='inputName' value='{{store_name}}'></input>
+  </view>
+</view>
+<view class="row" style="margin-top:20rpx;">
+  <view style="color:#77767e;font-size:35rpx;width:200rpx;height:80rpx;line-height:80rpx;">门店地址:</view>
+  <view style="font-size:35rpx;width:300rpx;">
+    <!-- <view bindtap='inputAddress' style='color:#77767e;'>{{store_address}}</view> -->
+    <input bindtap='inputAddress' style='color:#77767e;height:80rpx;line-height:80rpx;' value='{{store_address}}'>  </input>
+  </view>
+</view>
+
+<view class="row" style="margin-top:20rpx;">
+  <view style="color:#77767e;font-size:35rpx;width:200rpx;height:80rpx;line-height:80rpx;">店长姓名:</view>
+  <view style="font-size:35rpx;width:300rpx">
+    <input placeholder='请输入店长姓名' bindinput='inputManagerName' value='{{manager_name}}' style='height:80rpx;line-height:80rpx;'></input>
+  </view>
+</view>
+<view class="row" style="margin-top:20rpx;">
+  <view style="color:#77767e;font-size:35rpx;width:200rpx;height:80rpx;line-height:80rpx;">店长电话:</view>
+  <view style="font-size:35rpx;width:300rpx">
+    <input placeholder='请输入店长电话' bindinput='inputManagerTel' style='height:80rpx;line-height:80rpx;' value='{{manager_phone}}'></input>
+  </view>
+</view>
+
+
+
+  
+<view style="margin-top:300rpx;margin-left:auto;margin-right:auto;width:70%;">
+      <button class="btn" bindtap="commit">提交</button>
+</view>

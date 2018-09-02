@@ -1,0 +1,123 @@
+/* components/cmEmailInputToast/cmEmailInputToast.wxss */
+/* components/cmInputToast/cmInputToast.wxss */
+/* components/cmToast/cmToast.wxss */
+.body{
+  background-color:rgba(15, 15, 26, 0.7); 
+  height: 100%;
+  width: 100%;
+  position: fixed;  
+  z-index: 999; 
+  top: 0;
+}
+.containor{
+  width:540rpx;
+  height:360rpx;
+  background:rgba(255,255,255,1);
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin: 297rpx auto auto auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hint-containor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid  #DBDBDB;
+  height: 260rpx;
+}
+.hint-label{
+  width:400rpx;
+  font-size: 36rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* margin-top: 49rpx; */
+  height:auto;
+  color: #999999;
+  font-family:PingFangSC-Regular;
+}
+.icon-view{
+  width:44rpx;
+  height:90rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-image{
+  width:44rpx;
+  height:50rpx;
+  margin-top: 26rpx;
+}
+.confirm{
+  width:540rpx;
+  height:100rpx; 
+  display: flex;
+  font-size:36rpx;
+  border-radius: 10px;
+  font-family:PingFangSC-Regular;
+  color:rgba(255,74,12,1);
+  line-height:100rpx;
+  text-align: center;
+  background-color: white;
+  
+}
+.confirm-ok.active{
+  color:  #FF4A0C;
+}
+.confirm-ok{
+  width: 270rpx;
+  height: 100rpx;
+  color:  #999999;
+}
+.confirm-cancel{
+  width: 270rpx;
+  height: 100rpx;
+  border-right: 1px solid  #DBDBDB;
+  color: black;
+}
+.input-view-contain{
+  width: 466rpx;
+  display: flex;
+  margin-left: 37rpx;
+  height:90rpx;
+}
+.and{
+  font-size:30rpx;
+  line-height:90rpx;
+  height:90rpx;
+  margin-top:29rpx;
+  margin-left: 20rpx;
+}
+.input-view{
+  width:244rpx;
+  height:90rpx;
+  line-height: 90rpx;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29rpx;
+}
+.placeholder{
+  text-align: center;
+  font-size: 28rpx;
+  text-justify: inter-cluster;
+}
+input{
+  height:90rpx;
+  line-height: 90rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+

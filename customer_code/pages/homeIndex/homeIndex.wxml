@@ -1,0 +1,31 @@
+<!--pages/homeIndex/homeIndex.wxml-->
+<!-- <view class='select-group'>
+  <navigator class='select'  url='../activeList/activeList'>战绩</navigator>
+  <view wx:if="{{is_boss}}" class='select' bindtap='next'>分配新店员</view>
+</view> -->
+
+<view class='msg-contain'>
+  <view class='avator-view'>
+    <image src="{{userinfo.avatarUrl}}" class='avator'></image>
+  </view>
+  <view class='nick-name'>{{userinfo.nickName}}</view>
+   <!-- <view wx:if="{{is_boss==false}}" class='nick-name' style='color:red'>可提现:￥{{amount}}</view>  -->
+   <view  style='display:flex;flex-direction: column;'>
+    <view class='nick-name' style='color:red'>获得奖励:￥{{amount}}</view>
+    <view class='nick-name' style='color:red'>已发优惠:￥{{advance_sum}}</view>
+    <view wx:if="{{is_boss==false}}" class='nick-name' style='color:red'>总计:￥{{amount}}</view>
+    <view wx:if="{{is_boss==true}}" class='nick-name' style='color:red'>总计:￥{{amount+advance_sum}}</view>
+  </view> 
+</view>
+<view class='hint'>提现日期为每月12日</view>
+<view class='tixian' bindtap='drawals'>
+  提现
+</view>
+<navigator url='../allRecords/price_sum' class='tixian'>
+  查看赏米收入明细
+</navigator>
+<toast wx:if="{{is_show}}" bindconfirm="confirm" confirmText="{{confirmText}}" title="{{title}}"></toast>
+<!-- <view class='btn-contain'>
+  <navigator url='../activeList/activeList' class='btn'>我的项目</navigator>
+  <view  wx:if="{{is_boss}}" bindtap='next' class='btn'>添加店员</view>
+</view> -->

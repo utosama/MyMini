@@ -1,0 +1,78 @@
+/**index.wxss**/
+ page{
+  background-size: 100% 100%;
+  background-image:url('https://share-msg.oss-cn-shanghai.aliyuncs.com/get_price.jpg');
+} 
+/* page{
+  background-size: 100% 100%;
+  background-image:url('https://share-msg.oss-cn-shanghai.aliyuncs.com/814418695531697325.png');
+} */
+.hint{
+  font-size: 30rpx;
+  text-align: center;
+  width: 100%;
+  /* color: red; */
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top:130rpx;
+
+}
+.saler-group{
+  display: flex;
+  margin-top: 20rpx;
+  flex-wrap: wrap; 
+}
+.saler{
+  width: 26%;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rpx;
+  border: 1px solid black;
+}
+.hover{
+  width: 26%;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rpx;
+  background-color:  rgba(236,105,63, 0.7);
+  color: white;
+  border: 1px solid #f7f7fa;
+}
+.content-contain{
+  display: flex;
+  flex-direction: column;
+  width: 500rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 440rpx;
+}
+.price-hint{
+  text-align: center;
+  font-size: 30rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: auto;
+  /* margin-top: 20rpx; */
+  margin-right: auto;
+  padding-top:70rpx;
+
+}
+.price{
+  font-size: 40rpx;
+  color: red;
+  /* height: 150rpx;
+  line-height: 100rpx; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,60 @@
+/* pages/writeOff/writeOff.wxss */
+.section{
+  display: flex;
+  font-size:30rpx;
+   border-bottom: 2px solid #f7f7fa;
+   height: 90rpx;
+}
+.section-title{
+  line-height: 90rpx;
+  height: 90rpx;
+  width: 120rpx;
+  margin-left: 100rpx;
+  /* margin-right: auto; */
+}
+.picker{
+  line-height: 90rpx;
+  height: 90rpx;
+  /* width: 120rpx; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.search-caontain{
+  display: flex;
+  width: 100%;
+  margin-top: 10rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 2px solid #f7f7fa;
+}
+.search{
+  width: 700rpx;
+  background-color: #EC693F;
+  color: white;
+  font-size: 28rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+}
+.money{
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+.ok{
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: #EC693F;
+  color: white;
+  font-size: 28rpx;
+  /* width: 600rpx; */
+  width: 700rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-top: 200rpx;
+}

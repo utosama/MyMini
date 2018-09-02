@@ -1,0 +1,7 @@
+<!--pages/activeList/activeList.wxml-->
+<navigator url='../record/record?id={{item.id}}' class='cell' wx:for="{{actives}}" wx:key="key">
+  <view class='name'>{{item.name}}</view>
+  <view class='image'>
+    <image src='../../images/options/next.png' class='image'></image>
+  </view>
+</navigator>

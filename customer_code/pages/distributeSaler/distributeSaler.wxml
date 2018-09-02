@@ -1,0 +1,17 @@
+<view class="row" style="margin-top:150rpx;">
+  <view class='hint-title'>店员姓名:</view>
+  <view style="font-size:35rpx;width:300rpx;height:80rpx;line-height:80rpx;">
+    <input class='hint-input' placeholder='请输入姓名' bindinput='inputName' value='{{store_name}}'></input>
+  </view>
+</view>
+
+<view class="row" style="margin-top:20rpx;">
+  <view class='hint-title'>店员手机:</view>
+  <view style="font-size:35rpx;width:300rpx">
+    <input placeholder='电话将作为邀请码' bindinput='inputPhone'  class='hint-input'></input>
+  </view>
+</view>
+
+<view style="margin-top:300rpx;margin-left:auto;margin-right:auto;width:70%;">
+      <button class="btn" bindtap="commit">提交</button>
+</view>

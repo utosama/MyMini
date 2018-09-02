@@ -1,0 +1,43 @@
+/* pages/haveDone/haveDone.wxss */
+/* page{
+    background-size: 100% 100%;
+  background-image: url('https://share-msg.oss-cn-shanghai.aliyuncs.com/%E5%A5%BD%E9%81%97%E6%86%BE.png')
+} */
+ page{
+    background-size: 100% 100%;
+  background-image: url('https://share-msg.oss-cn-shanghai.aliyuncs.com/havedone.jpg')
+} 
+.content-title{
+  display: flex;
+  flex-direction: column;
+  margin-top:480rpx;
+  width: 500rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title{
+  font-size: 30rpx;
+  text-align: center;
+  color:red;
+  width: 500rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.hint-content{
+  display: flex;
+  flex-direction: column;
+   margin-top:380rpx; 
+  /* height: 400rpx; */
+  width: 600rpx;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+  bottom: 200rpx;
+}
+.rule{
+  font-size: 30rpx;
+  /* width: 500rpx; */
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #EC693F;
+}

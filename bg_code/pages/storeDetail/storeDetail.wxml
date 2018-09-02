@@ -1,0 +1,34 @@
+<!--pages/storeDetail/storeDetail.wxml-->
+<view class='store-msg-contain'>
+  <view style='display:flex'> 
+    <view class='msg-row' style='width:50%'>
+      店长:{{boss_name}}
+    </view>
+    <view class='msg-row'>
+    电话:{{phone}}
+    </view>
+  </view>
+  <view style='display:flex'> 
+    <view class='msg-row' style='width:50%'>
+      参与活动数:{{active_num}}个
+    </view>
+    <view class='msg-row'>
+    门店ID:{{store_id}}
+    </view>
+  </view>
+</view>
+<navigator url='../writeOff/writeOff?store_id={{store_id}}' class='write-off'>去结算</navigator>
+<view class='select-group'>
+
+  <view bindtap='select' data-id='1' class="{{is_today==1?'item active': 'item'}}">今日(未结算)</view>
+  <view bindtap='select' data-id='2' class="{{is_today==2?'item active': 'item'}}">总览(未结算)</view>
+  <view bindtap='select' data-id='3' class="{{is_today==3?'item active': 'item'}}">已结算</view>
+</view>
+<view class='data-cell' wx:for="{{datas}}" wx:key="key">
+  <view class='msg-row'>活动名:{{item.active_name}}</view>
+  <view class='msg-row'>战绩:{{item.person_count}}个</view>
+  <view class='msg-row'>累计金额:{{item.amount}}元</view>
+</view>
+<view wx:if="{{datas.length == 0}}" class='null'>
+  暂无战绩
+</view>

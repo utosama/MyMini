@@ -1,0 +1,23 @@
+<!--components/cmEmailInputToast/cmEmailInputToast.wxml-->
+<view class='body'>
+  <view class='containor'>
+    <view class='hint-containor'>
+      <view class='hint-label'>
+        {{title}}
+      </view>
+      <view class='input-view-contain'>
+        <view class='input-view'>
+          <input placeholder-class='placeholder' placeholder='请输入邮箱' bindinput='inputBefore'> </input>
+        </view>
+        <view class='and'>@</view>
+        <view class='input-view' style='width:161rpx;margin-left:19rpx;'>
+          <input placeholder-class='placeholder' placeholder='邮箱后缀' bindinput='inputAfter'> </input>
+        </view>
+      </view>
+    </view>
+    <view class='confirm' >
+      <view bindtap='cancel' class='confirm-cancel'>取消</view>
+      <view bindtap='confirm'  class="{{abled?'confirm-ok active':'confirm-ok'}}">确定</view>
+    </view>
+  </view>
+</view>

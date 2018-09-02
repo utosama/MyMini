@@ -1,0 +1,13 @@
+<!--pages/salerList/salerList.wxml-->
+<!-- <view class="section"> -->
+  <navigator wx:if="{{is_boss}}" url='../distributeSaler/distributeSaler' class="section-title">添加新店员</navigator>
+
+<view class='data-cell' wx:for="{{datas}}" wx:key="key">
+  <view class='msg-row' style='width:200rpx;'>店员:{{item.name}}</view>
+  <!-- <view class='msg-row'>{{item.active_name}}</view> -->
+  <view class='msg-row' style='width:300rpx;'>邀请码:{{item.phone}}</view>
+  <view class='msg-row' style='color:red'>状态:{{item.status==0?'已激活':'未激活'}}</view>
+</view>
+<view wx:if="{{datas.length == 0}}" class='null'>
+  暂无记录
+</view>

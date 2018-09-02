@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/record/record",
+    "pages/homeIndex/homeIndex",
+    "pages/activeList/activeList",
+    "pages/index/index",
+    "components/cmToast/cmToast",
+    "pages/salerList/salerList",
+    "pages/distributeSaler/distributeSaler",
+    "pages/bind_phone/bind_phone",
+    "pages/allRecords/price_sum",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "赏米商户端",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#7bc36e",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar/all_select.png",
+        "iconPath": "images/tabbar/all.png",
+        "pagePath": "pages/record/record",
+        "text": "我的项目"
+      },
+      {
+        "selectedIconPath": "images/tabbar/add_select.png",
+        "iconPath": "images/tabbar/add.png",
+        "pagePath": "pages/salerList/salerList",
+        "text": "添加店员"
+      },
+      {
+        "selectedIconPath": "images/tabbar/personal_select.png",
+        "iconPath": "images/tabbar/personal.png",
+        "pagePath": "pages/homeIndex/homeIndex",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

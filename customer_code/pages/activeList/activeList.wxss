@@ -1,0 +1,21 @@
+/* pages/activeList/activeList.wxss */
+.cell{
+  display: flex;
+  height: 100rpx;
+  border-bottom: 2px solid #F2F2F2;
+}
+.name{
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 660rpx;
+}
+.image{
+  height: 40rpx;
+  width: 30rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}

@@ -1,0 +1,94 @@
+/* components/buyInput/buyInput.wxss */
+.body{
+  background-color:rgba(15, 15, 26, 0.7); 
+  height: 100%;
+  width: 100%;
+  position: fixed;  
+  z-index: 999; 
+  top: 0;
+}
+.containor{
+  width:540rpx;
+  height:360rpx;
+  background:rgba(255,255,255,1);
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin: 297rpx auto auto auto;
+  display: flex;
+   flex-direction: column; 
+}
+.row{
+  display: flex;
+  /* height: 300rpx; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+   width: 400rpx; 
+   border: 1px solid  #DBDBDB;
+   height: 80rpx;
+    border-radius:8rpx;
+}
+.price-row{
+  display: flex;
+  /* height: 300rpx; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+   width: 400rpx; 
+   /* border: 1px solid  #DBDBDB; */
+   height: 60rpx;
+    border-radius:8rpx;
+}
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  /* border: 1px solid  #DBDBDB; */
+  width: 110rpx;
+  text-align: center;
+ 
+  
+}
+.input{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  width: 180rpx;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 1px solid  #DBDBDB;
+  border-right: 1px solid  #DBDBDB;
+}
+.cancel{
+  width: 50%;
+  font-size: 30rpx;
+  background-color: #DBDBDB;
+  line-height: 80rpx;
+  text-align: center;
+}
+.ok{
+  width: 50%;
+  font-size: 30rpx;
+  color: white;
+  background-color: red;
+    line-height: 80rpx;
+  text-align: center;
+  border-left: 1px solid  #DBDBDB;
+}
+.hint{
+  font-size: 35rpx;
+  line-height: 60rpx;
+}
+.price{
+  font-size: 35rpx;
+  line-height: 60rpx;
+  color: red;
+  width: 100rpx;
+  text-align: center;
+}

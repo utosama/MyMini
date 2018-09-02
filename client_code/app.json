@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/bind_phone/bind_phone",
+    "pages/index/index",
+    "pages/haveDone/haveDone",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "赏米",
+    "navigationBarTextStyle":"black"
+  }
+}

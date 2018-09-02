@@ -1,0 +1,34 @@
+
+<!-- <view class='image-view'>
+  <image class='title-icon' src='{{image}}'></image>
+</view> -->
+<!-- <page style="background-image: url('{{bg}}')"> -->
+<view class="bind-container">
+
+    <view style="height: 80rpx;border:1px solid #F2F2F2;width:590rpx;margin-left:auto;margin-right:auto;border-radius:16rpx;">
+      <input style="text-align: center;height: 80rpx;line-height:80rpx;width:590rpx;background-color: white;" bindinput="inputPhone"  placeholder='输入手机号'></input>
+    </view>
+    <view class="input-view">
+        <view>
+          <input type='number' bindinput="inputCode" placeholder="请输入验证码" class="phone-input" />
+        </view>
+        <view>
+          <button class='send-code-btn' bindtap="sendCode" data-do="{{sending}}">{{send_btn_name}}</button>
+        </view>
+    </view>
+    <!-- <view wx:if="{{active_id==2}}" style="margin-top:120rpx;height: 80rpx;border:1px solid #F2F2F2;width:590rpx;margin-left:auto;margin-right:auto;border-radius:16rpx;">
+      <input style="text-align: center;height: 80rpx;line-height:80rpx;width:590rpx;background-color: white;" bindinput="inputPwd" type='password' placeholder='密码(字母或数字6位以上)'></input>
+    </view>
+    <view style="margin-top:40rpx;height: 80rpx;width:590rpx;margin-left:auto;margin-right:auto;border-radius:16rpx;text-align:center;font-size:30rpx;color:#6D6D6D">
+     
+      注册阿尔法金融立减5元
+    </view> -->
+    <!-- <view class="code-input">
+      <input bindinput="inputCode" placeholder="请输入验证码" style="height: 90rpx;line-height:90rpx;" type='number'/>
+  </view> -->
+</view>
+
+<view >
+    <button bindtap="commitPhone" class="btn-view" >领取立减金</button>
+</view>
+<!-- </page> -->
